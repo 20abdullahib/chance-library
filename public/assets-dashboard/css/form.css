@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+
+.md-card-content  {
+    padding: 16px;
+    padding-top: 20px;
+}
+
+:selection {
+    background: #39f;
+    color: #fff;
+    text-shadow: none;
+}
+
+h3 {
+    margin: 0 0 15px 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: #444;
+    text-transform: none;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+h3 {
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+}
+
+.heading_a {
+    margin: 0;
+    font: 400 18px/24px Roboto,sans-serif;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    margin: 15px 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+.uk-grid {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.uk-grid {
+    margin-left: -25px;
+}
+
+.uk-grid:after,.uk-grid:before {
+    content: "";
+    display: block;
+    overflow: hidden;
+}
+
+.uk-grid:after {
+    clear: both;
+}
+
+.uk-grid > *  {
+    -ms-flex: none;
+    -webkit-flex: none;
+    flex: none;
+    margin: 0;
+    float: left;
+}
+
+.uk-grid > *  {
+    padding-left: 25px;
+}
+
+[class*="uk-width"] {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+@media (min-width: 768px){
+  .uk-width-medium-1-2 {
+    width: 50%;
+  }
+}
+
+.uk-grid-margin {
+    margin-top: 25px;
+}
+
+.uk-grid-margin {
+    margin-top: 24px;
+}
+
+.uk-form-row {
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+.uk-form-row:after,.uk-form-row:before {
+    content: "";
+    display: table;
+}
+
+.uk-form-row:after {
+    clear: both;
+}
+
+.uk-form-row + .uk-form-row  {
+    margin-top: 15px;
+}
+
+.uk-form-row + .uk-form-row  {
+    margin-top: 24px;
+}
+
+.uk-grid > * > :last-child  {
+    margin-bottom: 0;
+}
+
+.md-input-wrapper {
+    position: relative;
+    padding-top: 4px;
+    width: 100%;
+    display: block;
+}
+
+.uk-input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.md-input-wrapper > label  {
+    color: #727272;
+    position: absolute;
+    top: 16px;
+    left: 4px;
+    right: 0;
+    pointer-events: none;
+    -webkit-transition: all 150ms ease-out;
+    transition: all 150ms ease-out;
+}
+
+input[type="text"] {
+    outline: 0;
+}
+
+input[type="text"].md-input {
+    border-radius: 0;
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.12);
+    font: 400 15px/18px Roboto,sans-serif;
+    -webkit-box-shadow: inset 0 -1px 0 transparent;
+    box-shadow: inset 0 -1px 0 transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 12px 4px;
+    background: 0 0;
+    width: 100%;
+    display: block;
+}
+
+.md-input-wrapper .md-input-bar  {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.md-input-wrapper .md-input-bar::after, .md-input-wrapper .md-input-bar::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #1976d2;
+    -webkit-transition: width .3s cubic-bezier(.4,0,.2,1);
+    transition: width .3s cubic-bezier(.4,0,.2,1);
+}
+
+.md-input-wrapper .md-input-bar::before {
+    left: 50%;
+}
+
+.md-input-wrapper .md-input-bar::after {
+    right: 50%;
+}
+
+.md-input-filled > label  {
+    top: -6px;
+    font-size: 12px;
+}
+
+input[type="email"] {
+    outline: 0;
+}
+
+input[type="email"].md-input {
+    border-radius: 0;
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.12);
+    font: 400 15px/18px Roboto,sans-serif;
+    -webkit-box-shadow: inset 0 -1px 0 transparent;
+    box-shadow: inset 0 -1px 0 transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 12px 4px;
+    background: 0 0;
+    width: 100%;
+    display: block;
+}
+
+input[type="password"] {
+    outline: 0;
+}
+
+input[type="password"].md-input {
+    border-radius: 0;
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.12);
+    font: 400 15px/18px Roboto,sans-serif;
+    -webkit-box-shadow: inset 0 -1px 0 transparent;
+    box-shadow: inset 0 -1px 0 transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 12px 4px;
+    background: 0 0;
+    width: 100%;
+    display: block;
+}
+
+select {
+    outline: 0;
+}
+
+select.md-input {
+    border-radius: 0;
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.12);
+    font: 400 15px/18px Roboto,sans-serif;
+    -webkit-box-shadow: inset 0 -1px 0 transparent;
+    box-shadow: inset 0 -1px 0 transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 12px 4px;
+    background: 0 0;
+    width: 100%;
+    display: block;
+}
+
+textarea {
+    outline: 0;
+}
+
+textarea.md-input {
+    border-radius: 0;
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.12);
+    font: 400 15px/18px Roboto,sans-serif;
+    -webkit-box-shadow: inset 0 -1px 0 transparent;
+    box-shadow: inset 0 -1px 0 transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 12px 4px;
+    background: 0 0;
+    width: 100%;
+    display: block;
+}
+
+textarea.md-input {
+    min-height: 80px;
+    resize: none;
+    overflow: hidden;
+    -webkit-transition: height .2s ease-out;
+    transition: height .2s ease-out;
+    line-height: 24px;
+}
+
+.md-btn {
+    background: #fff;
+    border: none;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+    box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+    min-height: 31px;
+    min-width: 70px;
+    padding: 2px 16px;
+    text-align: center;
+    text-shadow: none;
+    text-transform: uppercase;
+    -webkit-transition: all 280ms ease;
+    transition: all 280ms ease;
+    color: #212121;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-appearance: none;
+    display: inline-block;
+    vertical-align: middle;
+    font: 500 14px/31px Roboto,sans-serif!important;
+}
+
+.md-btn-success {
+    background: #7cb342;
+}
+
+.md-btn-success {
+    color: #fff;
+}
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-gAPme.style-gAPme {
+   overflow-x: hidden;
+    overflow-wrap: break-word;
+    height: 121.25px;
+}

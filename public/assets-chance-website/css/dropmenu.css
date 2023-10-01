@@ -1,0 +1,64 @@
+#droplist button {
+    border: none;
+    background: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    /* text-decoration: underline; */
+}
+
+/*
+#dispaly_content .text-primary {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#dispaly_content .download-button, .view-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+  gap: 5px;
+}
+
+#dispaly_content .download-button i, .view-button i {
+  font-size: 16px;
+} */
+
+#display_content .btn-outline-primary {
+    min-width: 100px;
+    background-color: transparent;
+    border-color: #007bff !important;
+    color: #007bff !important;
+}
+
+#display_content .btn-outline-primary:hover {
+    min-width: 100px;
+    background-color: #007bff !important;
+    color: #fff !important;
+}
+
+/* Define a CSS class with the desired styles */
+#button-home {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: center;
+    visibility: visible;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: transparent;
+    color: #5d5d5d;
+    transition: 0.3s;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 0.6em 1em;
+}
